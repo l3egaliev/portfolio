@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.contacts{
+    background-color: #EDF7FA;
+    height: 100vh;
+}
+.container{
+    max-width: 1000px;
+}
+
+.contacts-container{
+    max-width: 270px;
+    margin: 0 auto;
+    padding: 114px 0 123px;
+}
+.con-head{
+    font-size: 34px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    color: #070707;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.con-ds{
+    font-size: 18px;
+    display: block;
+    font-family: 'Gilroy-Regular', sans-serif;
+    color: #070707;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.message{
+    background-color: #070707;
+    color: #F6F6F6;
+    padding: 13px 30px;
+    border-radius: 30px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+}
+.message:hover{
+    color: #02a7de;
+    background-color: #e8e5e5;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 45px;
+}
+.social li a{
+    display: inline-block;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+}
+.social li:not(:last-child){
+    margin-left: 0;
+    margin-right: 60px;
+}
+
+.tel{
+    background-image: url(../image/telegram\ \(1\).png);
+}
+.whats{
+    background-image: url(../image/whatsapp.png);
+}
+.insta{
+    background-image: url(../image/insta.png);
+}
+.soc-desc{
+    color: #070707;
+    font-size: 18px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    display: block;
+    text-align: center;
+}

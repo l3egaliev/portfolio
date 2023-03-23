@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+.skills{
+    padding: 91px 0 150px;
+    background-color: #EDF7FA;
+}
+.skills h2{
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    color: #070707;
+    margin-bottom: 69px;
+}
+.skills-ds{
+    color: #070707;
+    font-size: 18px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    text-align: center;
+    margin-bottom: 83px;
+}
+
+.programs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    background-color: transparent;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: translateX(36px);
+
+}
+.logo-figma{
+    background-image: url(../image/figma.png);
+}
+.logo-css{
+    background-image: url(../image/css.png);
+}
+.logo-js{
+    background-image: url(../image/js.png);
+}
+.logo-html{
+    background-image: url(../image/html.png);
+}
+.logo-ds{
+    color: #828282;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Gilroy-Bold', sans-serif;
+    margin-top: 20px;
+}
+.list-stars{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin-top: 41px;
+}
+.black{
+    background-image: url(../image/Star\ black.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+}
+.list-stars li:not(:last-child){
+    margin-right: 9px;
+}
+.white{
+    background-image: url(../image/white-star.png);
+    width: 26px;
+    height: 26px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+footer{
+    padding: 30px 0 ;
+
+}
+
+.footer-container{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social li:not(:last-child){
+    margin-right: 35px;
+}
+
+.logo-social{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.instagram{
+        background-image: url('../image/insta.png');
+}
+.whatsapp{
+    background-image: url('../image/whatsapp.png');
+}
+.telegram{
+    background-image: url('../image/telegram\ \(1\).png');
+}
+.copyright{
+    text-align: center;
+    margin-top: 26px;
+    color: #545456;
+    font-size: 14px;
+    font-weight: normal;
+}

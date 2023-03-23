@@ -1,0 +1,127 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+ul{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.home{
+    background-color: #EDF7FA;
+    padding-bottom: 120px;
+
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-top: 27px;
+}
+.nav-item:not(:last-child){
+    margin-right: 33px;
+}
+.nav-item a{
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+}
+
+.nav-item a:hover{
+    color: #4652bd;
+}
+
+.head{
+    margin-top: 140px;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+.photo img{
+    width: 243px;
+    height: 243px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 0 -70px;
+}
+.main-desc{
+    color: #21243D;
+    font-size: 44px;
+    line-height: 60px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.description p{
+    color: #21243D;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 400px;
+    margin-bottom: 40px;
+}
+
+.download{
+    background-color: #FF6464;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #FF6464;
+}
+.download:hover{
+    background-color: transparent;
+    color: #FF6464;
+}
+footer{
+    padding: 30px 0;
+}
+
+.footer-container{
+    max-width: 400px;    
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social li:not(:last-child){
+    margin-right: 35px;
+}
+
+.logo{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.instagram{
+        background-image: url('../image/insta.png');
+}
+.whatsapp{
+    background-image: url('../image/whatsapp.png');
+}
+.telegram{
+    background-image: url('../image/telegram\ \(1\).png');
+}
+.copyright{
+    text-align: center;
+    margin-top: 26px;
+    color: #545456;
+    font-size: 14px;
+    font-weight: normal;
+}
